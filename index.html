@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Kevin Guzmán</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Resources/css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./Resources/Images/iconLeft.png"
+      type="image/png"
+    />
+  </head>
+
+  <body>
+
+    <div id="rowMenu" class="row">
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <img class="responsive-img"
+              alt="iconLeft"
+              id="leftIcon"
+              src="./Resources/Images/iconLeft.png"
+            />
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#rowMenu">Home</a></li>
+              <li><a href="#color">My Projects</a></li>
+              <li><a href="#skillSet">Skill Set</a></li>
+              <li><a href="#aboutMe">About Me</a></li>
+              <li><a href="collapsible.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div id="mainImg" class="row">
+      <div id="textContainer" class="col l8">
+        <div id="presentation">
+          <div id="textP">
+            <span style="color: #53f6c7">&lt;b&gt;</span>Hello<span
+              style="color: #53f6c7"
+              >&lt;/b&gt;
+            </span>
+            <br />
+            <span style="color: #53f6c7">I’m Kevin,</span>
+            Java and
+            <br />
+            Web Developer
+          </div>
+        </div>
+      </div>
+
+      <div class="col l4">
+        <div id="wodsCont" class="row"></div>
+      </div>
+
+    </div>
+
+    <div id="color"></div>
+      
+    <div id="divTittle">
+      <h1 class='tittle'>My Projects</h1>
+      <hr />
+    </div>
+
+    <div id='projects'>
+    <div id="containerRows" class="container">
+      <div id="cardsRow" class="row"></div>
+    </div>
+    </div>
+
+    <div id="color"></div>
+    <div class="z-depth-2" id="skillSet" name="skillSet" >
+      <h1 class='tittle'>Skill Set</h1>
+      <hr class="hrContainer" />
+      <div id="iconsRow" class="row"></div>
+    </div>
+  
+    <div id="about">
+    <div class="container">
+      <h1 class='tittle'>About Me</h1>
+      <hr class="hrContainer" />
+      <div class='row'>
+        <div class='col l3 offset-l5'>
+          <img id='potrait' alt='background' src='./Resources/Images/Recurso 1.png'>
+        </div>
+      </div>
+      
+      <div class='row'>
+        <div id="vl" class='col l1'></div>
+        <div class='col l11 ' >
+          <p id="v2">Vivo y estudio en mi amada Medellín. Actualmente estoy cursando el 4 semestre de tecnología 
+            en sistemas en el Tecnológico de Antioquia. Me gusta el ejercicio y las caminatas largas 
+            conociendo personas y lugares nuevos, además tengo un gusto especial por programar y crear 
+            que ha ido creciendo desde los 17 años y que hasta hoy no para de crecer.</p>
+            
+            <blockquote >
+              <div><strong>Phone</strong></div>
+              <span class='aboutInfo'>3005316264</span>
+            </blockquote>
+            
+            <blockquote >
+              <div><strong>Gmail</strong></div>
+              <span class='aboutInfo'>kevinalternativa1@gmail.com</span>
+            </blockquote>
+
+            <div id="downSplit">
+            <p id='Download'> Download My</p>
+            <a  href="./Resources/docs/CurrículumKevinGuzmán.docx" download="Curriculum" id='downloadCV' class="waves-effect waves-light btn">
+              <i class="material-icons right">arrow_downward</i>CV</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div id="color1"></div>
+    <div id='contact'>
+    <div class="container">
+      <h1>Contact Me</h1>
+      
+      <form name="contactForm" method="POST" data-netlify="true" >
+        <hr class="hrContainer" />
+        <div class="row">
+          <form name="contactForm1" method="POST" data-netlify="true" class="col l12 s12">
+            <div class="row">
+              <div class="input-field col l6 s6">
+                <em class="material-icons prefix">account_circle</em>
+                <input required id="nombref" name="nombref" type="text" class="validate" />
+                <label for="nombref">Name</label>
+              </div>
+              <div class="input-field col l6 s6">
+                <em id="iconEmail" class="material-icons prefix"
+                  >mail_outline</em>
+                <input required id="emailf" name="emailf" type="text" class="validate" />
+                <label for="emailf">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col l12 s12">
+                <em class="material-icons prefix">local_phone</em>
+                <input id="phone" name="phone" type="text" class="validate" />
+                <label for="phone">Phone</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col l12 s12">
+                <em class="material-icons prefix">chat</em>
+                <input required id="mensajef" name="mensajef" type="text" class="validate" />
+                <label for="mensajef">Message</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class=" col l12 ">
+                <div class=" col l10 ">
+                  <div class=" col l6 offset-l6 ">
+                    <button  id='sendButton' class="btn waves-effect waves-light" type="submit" name="action">Submit
+                      <i class="material-icons right">send</i>
+                    </button>
+                </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </form>
+    </div>
+  </div>
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <p class="grey-text text-lighten-4">
+              If you want to hire me you can use my gmail or phone number
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2021 : Kevin Yorney Guzmán Hernández
+          <a class="grey-text text-lighten-4 right" href="#rowMenu"><em class="material-icons right">arrow_upward</em>Go Top</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="Resources/javascript/script.js"></script>
+</html>
