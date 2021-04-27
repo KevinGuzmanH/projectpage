@@ -13,13 +13,10 @@ h1 {
   font-weight: lighter;
 }
 
-main {
-  margin-top: 170px;
-  margin-left: 488px;
-}
 .card {
   opacity: 0;
 }
+
 hr {
   margin-left: 430px;
   margin-right: 420px;
@@ -41,13 +38,10 @@ hr {
   opacity: 0;
 }
 
-#photo {
-  text-align: right;
-}
-
 #potrait {
   width: 70%;
 }
+
 #downloadCV {
   border-radius: 15px;
   margin-left: 8px;
@@ -60,10 +54,7 @@ hr {
 #downSplit {
   margin-top: 60px;
 }
-#cvText {
-  text-align: left;
-  font-family: Roboto Mono, monospace;
-}
+
 #vl {
   border-left: 6px solid rgb(95, 25, 221);
   height: 400px;
@@ -77,9 +68,7 @@ hr {
   margin: 0px 0px;
   text-align: left;
 }
-#divDW {
-  margin-top: 8px;
-}
+
 .skillimg {
   height: 180px;
   opacity: 1;
