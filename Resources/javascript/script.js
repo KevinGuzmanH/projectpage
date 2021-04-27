@@ -9,18 +9,20 @@ const cardsData =[{
     src: 'https://cdn4.buysellads.net/uu/1/87063/1617222593-KLAV-335-260x200-lifestyle-4.jpg',
     desc: 'I am a very simple card. I am good at containing small bits of information',
     tittle: 'Cajero',
+    href: '#modal2',
 },
 {
     src: 'https://cdn4.buysellads.net/uu/1/87063/1617222593-KLAV-335-260x200-lifestyle-4.jpg',
     desc: 'I am a very simple card. I am good at containing small bits of information',
     tittle: 'Cajero',
+    href: '#modal3',
 }
 ]
 
-cardsData.forEach( ({src,desc,tittle}) => putCard(src,desc,tittle));
+cardsData.forEach( ({src,desc,tittle,href}) => putCard(src,desc,tittle,href));
 
 
-function putCard(src,desc,tittle) {
+function putCard(src,desc,tittle,href) {
     
     let row = document.getElementById('cardsRow');
     let divCol= document.createElement('div');
@@ -32,6 +34,7 @@ function putCard(src,desc,tittle) {
     let paragraph = document.createElement('p');
     let crdAction = document.createElement('div');
     let action = document.createElement('a');
+    
     divCol.className = 'col l4';
     divcard.className = 'card hoverable small';
     divcardIMG.className = 'card-image';
@@ -42,12 +45,13 @@ function putCard(src,desc,tittle) {
     action.textContent = 'Ver';
 
     action.className = 'waves-effect waves-light btn modal-trigger';
-    action.href = "#";
+    action.href = href;
 
     img.className = 'class="responsive-img"';
     img.src = src;
     img.alt = 'Project image';
     paragraph.textContent = desc;
+
     divCol.appendChild(divcard);
     divcard.appendChild(divcardIMG);
     divcard.appendChild(divContent);
