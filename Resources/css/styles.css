@@ -118,7 +118,18 @@ hr{
     display: flex;
     margin-bottom: 5px;
 }
+#gittext{
+    vertical-align: top;
+}
+#github{
+    width: 26px;
+    vertical-align: super;
+}
 
+#pageGit>img{
+    margin-right: 30px;
+   margin-left:10px
+}
 
 #rowMenu{
     margin-bottom: 5px;
@@ -168,4 +179,8 @@ hr{
 
 #about{
     padding-bottom: 60px;
+}
+
+#sendButton{
+    background-color: rgb(95, 25, 221)
 }

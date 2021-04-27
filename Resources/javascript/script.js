@@ -2,17 +2,18 @@
 const cardsData =[{
     src: 'https://cdn4.buysellads.net/uu/1/87063/1617222593-KLAV-335-260x200-lifestyle-4.jpg',
     desc: 'I am a very simple card. I am good at containing small bits of information',
-    tittle: 'Cajero'
+    tittle: 'Cajero',
+    href: '#modal1',
 },
 {
     src: 'https://cdn4.buysellads.net/uu/1/87063/1617222593-KLAV-335-260x200-lifestyle-4.jpg',
     desc: 'I am a very simple card. I am good at containing small bits of information',
-    tittle: 'Cajero'
+    tittle: 'Cajero',
 },
 {
     src: 'https://cdn4.buysellads.net/uu/1/87063/1617222593-KLAV-335-260x200-lifestyle-4.jpg',
     desc: 'I am a very simple card. I am good at containing small bits of information',
-    tittle: 'Cajero'
+    tittle: 'Cajero',
 }
 ]
 
@@ -39,7 +40,11 @@ function putCard(src,desc,tittle) {
     crdAction.className = 'card-action';
     span.textContent = tittle;
     action.textContent = 'Ver';
-    action.href = '#';
+
+    action.className = 'waves-effect waves-light btn modal-trigger';
+    action.href = "#";
+
+    img.className = 'class="responsive-img"';
     img.src = src;
     img.alt = 'Project image';
     paragraph.textContent = desc;
@@ -53,7 +58,7 @@ function putCard(src,desc,tittle) {
     divContent.appendChild(paragraph);
     row.appendChild(divCol);
 }
- 
+
 const skillData =[{
     src: 'Resources/Images/iconCSS.png',
 },

@@ -77,21 +77,24 @@
       <div id="cardsRow" class="row"></div>
     </div>
     </div>
+    <div>
 
-    <div id="color"></div>
-    <div class="z-depth-2" id="skillSet" name="skillSet" >
-      <h1 class='tittle'>Skill Set</h1>
-      <hr class="hrContainer" />
-      <div id="iconsRow" class="row"></div>
-    </div>
-  
+     
+      <div class="z-depth-2"id="color"></div>
+      <div class="z-depth-2" id="skillSet" name="skillSet" >
+        <h1 class='tittle'>Skill Set</h1>
+        <hr class="hrContainer" />
+        <div id="iconsRow" class="row"></div>
+      </div>
+    </section>
+
     <div id="about">
     <div class="container">
       <h1 class='tittle'>About Me</h1>
       <hr class="hrContainer" />
       <div class='row'>
         <div class='col l3 offset-l5'>
-          <img id='potrait' alt='background' src='./Resources/Images/Recurso 1.png'>
+          <img class="responsive-img" id='potrait' alt='background' src='./Resources/Images/Recurso 1.png'>
         </div>
       </div>
       
@@ -114,15 +117,15 @@
             </blockquote>
 
             <div id="downSplit">
-            <p id='Download'> Download My</p>
-            <a  href="./Resources/docs/CurrículumKevinGuzmán.docx" download="Curriculum" id='downloadCV' class="waves-effect waves-light btn">
+            <span id='Download'> Download My</span>
+            <a href="./Resources/docs/CurrículumKevinGuzmán.docx" download="Curriculum" id='downloadCV' class="waves-effect waves-light btn">
               <i class="material-icons right">arrow_downward</i>CV</a>
             </div>
           </div>
       </div>
     </div>
   </div>
-  <div id="color1"></div>
+  <div class="z-depth-2" id="color1"></div>
     <div id='contact'>
     <div class="container">
       <h1>Contact Me</h1>
@@ -162,7 +165,7 @@
               <div class=" col l12 ">
                 <div class=" col l10 ">
                   <div class=" col l6 offset-l6 ">
-                    <button  id='sendButton' class="btn waves-effect waves-light" type="submit" name="action">Submit
+                    <button id='sendButton' class="btn waves-effect waves-light" type="submit" name="action">Submit
                       <i class="material-icons right">send</i>
                     </button>
                 </div>
@@ -189,6 +192,8 @@
         <div class="container">
           © 2021 : Kevin Yorney Guzmán Hernández
           <a class="grey-text text-lighten-4 right" href="#rowMenu"><em class="material-icons right">arrow_upward</em>Go Top</a>
+          <a id='pageGit' class="grey-text text-lighten-4 right" href="https://github.com/KevinGuzmanH/projectpage"><span id='gittext'>This page on GitHub</span><img id='github' src="https://www.flaticon.es/svg/vstatic/svg/733/733609.svg?token=exp=1619476038~hmac=2f04d1e7d012f1df58ae122f96ef841b"></a>
+          
         </div>
       </div>
     </footer>
@@ -197,4 +202,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
   <script src="Resources/javascript/script.js"></script>
-</html>
+ 
+  </html>
