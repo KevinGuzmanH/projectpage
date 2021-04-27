@@ -65,37 +65,46 @@ function putCard(src,desc,tittle,href) {
 
 const skillData =[{
     src: 'Resources/Images/iconCSS.png',
+    tittle: 'CSS'
 },
 
  {  
     src: 'Resources/Images/iconJavaScrip.png',
+    tittle: 'JavaScript'
 },
 {
-    src: 'Resources/Images/iconHTML.png'
+    src: 'Resources/Images/iconHTML.png',
+    tittle: 'HTML'
 },
 {
-    src: 'Resources/Images/iconJava.png'
+    src: 'Resources/Images/iconJava.png',
+    tittle: 'Java'
 },
 {
-    src: 'Resources/Images/iconMySQL.png'
+    src: 'Resources/Images/iconMySQL.png',
+    tittle: 'MySQL'
 },
 {
-    src: 'Resources/Images/iconStudio.png'
+    src: 'Resources/Images/iconStudio.png',
+    tittle: 'Android Studio'
 },
 {
-  src: 'https://jartigag.xyz/assets/images/posts/git.png'
+  src: 'https://jartigag.xyz/assets/images/posts/git.png',
+  tittle: 'git'
 },
 {
-  src: 'https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg'
+  src: 'https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg',
+  tittle: 'Gsap'
 },
 {
-  src: 'https://colinstodd.com/images/posts/matcss-min.png'
+  src: 'https://colinstodd.com/images/posts/matcss-min.png',
+  tittle: 'Materializecss'
 },
 
 ]
-skillData.forEach( ({src}) => putSkillIcons(src) );
+skillData.forEach( ({src,tittle}) => putSkillIcons(src,tittle) );
 
-function putSkillIcons(src){
+function putSkillIcons(src,tittle){
     let row = document.getElementById('iconsRow');
     let divCol= document.createElement('div');
     let imageCont= document.createElement('div');
@@ -104,6 +113,7 @@ function putSkillIcons(src){
     img.alt = 'language image';
     img.className = 'skillimg';
     img.src = src;
+    img.setAttribute('title',tittle);
     imageCont.className = 'contimg';
     divCol.appendChild(imageCont);
     imageCont.appendChild(img);
