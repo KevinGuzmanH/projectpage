@@ -81,7 +81,17 @@ const skillData =[{
 },
 {
     src: 'Resources/Images/iconStudio.png'
-}
+},
+{
+  src: 'https://jartigag.xyz/assets/images/posts/git.png'
+},
+{
+  src: 'https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg'
+},
+{
+  src: 'https://colinstodd.com/images/posts/matcss-min.png'
+},
+
 ]
 skillData.forEach( ({src}) => putSkillIcons(src) );
 
