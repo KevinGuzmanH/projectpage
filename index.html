@@ -27,10 +27,13 @@
         $('#modal6').modal();
       })
     </script>
+    <script> $(document).ready(function(){
+      $('.slider').slider();
+    });</script>
   </head>
 
   <body>
-
+    
     <div id="rowMenu" class="row">
       <div class="navbar-fixed">
         <nav>
@@ -56,12 +59,9 @@
       <div id="textContainer" class="col l8">
         <div id="presentation">
           <div id="textP">
-            <span style="color: #53f6c7">&lt;b&gt;</span>Hello<span
-              style="color: #53f6c7"
-              >&lt;/b&gt;
-            </span>
+            <span>&lt;b&gt;</span>Hello<span>&lt;/b&gt;</span>
             <br />
-            <span style="color: #53f6c7">I’m Kevin,</span>
+            <span>I’m Kevin,</span>
             Java and
             <br />
             Web Developer
@@ -92,36 +92,76 @@
       <div id="modal1" class="modal modal-fixed-footer">
         <div class="modal-content">
         </div>
-        <div class="video-container">
-          <iframe title='VDescription' width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" allowfullscreen></iframe>
+
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="Resources/Images/ingproject1.png">
+              <div id="descripcion1" class="caption center-align">
+                <h3 class="pj1">Material Design!</h3>
+                <h5 class="light grey-text text-lighten-3">Simple, Rapido</h5>
+              </div>
+            </li>
+            <li>
+              <img src="Resources/Images/ingproject1-1.png">
+              <div class="caption right-align ">
+                <h3 style="margin-top: 207px" class="pj1">Postea!</h3>
+                <h5 class="light grey-text text-lighten-3">Articulos personalizables</h5>
+              </div>
+            </li>
+            <li>
+              <img src="Resources/Images/ingproject1-2.png"> <!-- random image -->
+              <div style="margin-bottom: 100px" class="caption right-align">
+                <h3>Hecho con Java</h3>
+                <h5 class="light grey-text text-lighten-3">Funcionalidades Casi Ilimitadas</h5>
+              </div>
+            </li>
+            <li>
+              <img src="Resources/Images/ingproject1-3.png"> <!-- random image -->
+              <div class="caption center-align">
+                <h3>Aprovechando Thymeleaf!</h3>
+                <h5 class="light grey-text text-lighten-3">Evitando repeticiones de código</h5>
+              </div>
+            </li>
+          </ul>
         </div>
         <div class="modal-footer">
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat">GitHub</a>
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+          <a target="_blank" href="https://kevin-demo-app.herokuapp.com/home/" class="modal-close waves-effect waves-green btn-flat">Ir</a>
+          <a target="_blank" href="#!" class="modal-close waves-effect waves-green btn-flat">GitHub</a>
+          <a  href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
         </div>
       </div>
       
       <div id="modal2" class="modal modal-fixed-footer">
         <div class="modal-content">
         </div>
-        <div class="video-container">
-          <iframe title='VDescription' width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" allowfullscreen></iframe>
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="Resources/Images/ingproject2-1.png">
+              <div id="descripcion2" class="caption right-align">
+                <h3 class="pj2">Front Angular!</h3>
+                <h5 class="light grey-text text-lighten-3">Estructurado</h5>
+              </div>
+            </li>
+            <li>
+              <img src="Resources/Images/ingproject2-2.png">
+              <div class="caption right-align ">
+                <h3 style="margin-top: 207px">Back y Front Separados</h3>
+              </div>
+            </li>
+            <li>
+              <img src="Resources/Images/ingproject2-3.png"> <!-- random image -->
+              <div style="margin-bottom: 100px" class="caption right-align">
+                <h3>Interfaz Simple y Atractiva</h3>
+              </div>
+            </li>
+          </ul>
         </div>
         <div class="modal-footer">
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat">GitHub</a>
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-        </div>
-      </div>
-
-      <div id="modal3" class="modal modal-fixed-footer">
-        <div class="modal-content">
-        </div>
-        <div class="video-container">
-          <iframe title='VDescription' width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" allowfullscreen></iframe>
-        </div>
-        <div class="modal-footer">
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat">GitHub</a>
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+          <a target="_blank" href="https://tientabacksp.netlify.app" class="modal-close waves-effect waves-green btn-flat">Ir</a>
+          <a target="_blank" href="#!" class="modal-close waves-effect waves-green btn-flat">GitHub</a>
+          <a  href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
         </div>
       </div>
 

@@ -1,15 +1,17 @@
 
 const cardsData = [
   {
-    src: "https://cdn4.buysellads.net/uu/1/87063/1617222593-KLAV-335-260x200-lifestyle-4.jpg",
-    desc: "I am a very simple card. I am good at containing small bits of information",
-    tittle: "Cajero",
+    src: "Resources/Images/ingproject1.png",
+    desc: "Página hecha en Springboot con Thymeleaf y Materialize CSS."
+     +" Conectada a base de datos utilizando JPA y PostgreSQL, y en la que tú mismo puedes postear",
+    tittle: "Tecnologías",
     href: "#modal1",
   },
   {
-    src: "https://cdn4.buysellads.net/uu/1/87063/1617222593-KLAV-335-260x200-lifestyle-4.jpg",
-    desc: "I am a very simple card. I am good at containing small bits of information",
-    tittle: "Cajero",
+    src: "Resources/Images/ingproject2.png",
+    desc: "Proyecto CRUD en el que se pueden llevar las cuentas y el numero de productos en una tienda. La " +
+        "coneccion a la base de datos puede tardar de 10 a 40 sg",
+    tittle: "Tienda",
     href: "#modal2",
   },
   {
@@ -87,7 +89,7 @@ const skillData = [
     tittle: "MySQL",
   },
   {
-    src: "Resources/Images/iconStudio.png",
+    src: "https://picodotdev.github.io/blog-bitix/assets/images/logotypes/spring.svg",
     tittle: "Android Studio",
   },
   {
@@ -101,6 +103,10 @@ const skillData = [
   {
     src: "https://colinstodd.com/images/posts/matcss-min.png",
     tittle: "Materializecss",
+  },
+  {
+    src: "https://avatars.githubusercontent.com/u/2918581?s=280&v=4",
+    tittle: "Bootstrap",
   },
 ];
 skillData.forEach(({ src, tittle }) => putSkillIcons(src, tittle));
