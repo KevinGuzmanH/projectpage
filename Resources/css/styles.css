@@ -41,8 +41,7 @@ hr {
 }
 
 #skillSet {
-  margin-left: 680px;
-  opacity: 0;
+  opacity: 1;
 }
 
 #potrait {
@@ -93,18 +92,18 @@ hr {
 }
 
 #iconsRow {
-  opacity: 0.9;
-  background-color: rgb(95, 25, 221);
-  margin-left: 230px;
-  padding-right: 100px;
+
 }
 
 #mainImg {
   padding-bottom: 136px;
   background-image: url(../Images/back-min.png);
-  background-size: contain;
+  background-size: cover;
   display: flex;
   margin-bottom: 5px;
+}
+#wodsCont{
+  margin-top: 70px;
 }
 #gittext {
   vertical-align: top;

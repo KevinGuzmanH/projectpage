@@ -93,21 +93,26 @@ const skillData = [
     tittle: "Android Studio",
   },
   {
-    src: "https://jartigag.xyz/assets/images/posts/git.png",
-    tittle: "git",
+    src: "https://nefelijm.github.io/Nefeli/assets/images/img5.png",
+    tittle: "Bootstrap",
   },
   {
-    src: "https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg",
-    tittle: "Gsap",
+    src: "https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/angular-js-512.png",
+    tittle: "Angular",
   },
   {
     src: "https://colinstodd.com/images/posts/matcss-min.png",
     tittle: "Materializecss",
   },
   {
-    src: "https://avatars.githubusercontent.com/u/2918581?s=280&v=4",
-    tittle: "Bootstrap",
+    src: "https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg",
+    tittle: "Gsap",
   },
+  {
+    src: "https://jartigag.xyz/assets/images/posts/git.png",
+    tittle: "git",
+  },
+
 ];
 skillData.forEach(({ src, tittle }) => putSkillIcons(src, tittle));
 
@@ -116,7 +121,7 @@ function putSkillIcons(src, tittle) {
   let divCol = document.createElement("div");
   let imageCont = document.createElement("div");
   let img = document.createElement("img");
-  divCol.className = "col l4 ";
+  divCol.className = "col l4 s6 ";
   img.alt = "language image";
   img.className = "skillimg";
   img.src = src;
@@ -228,10 +233,8 @@ const observeElementSkill = (entries, observer) => {
       gsap.from(".skillimg", {
         duration: 1.5,
         scale: 1,
-        x: -200,
-        ease: "power1.inOut",
-        opacity: 0,
-        repeat: 0,
+        y: -200,
+        ease: "power1",
         stagger: 0.4,
       });
       gsap.to("#skillSet", {
