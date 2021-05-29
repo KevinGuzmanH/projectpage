@@ -81,7 +81,6 @@ hr {
   margin-bottom: 20px;
   margin-top: 30px;
 }
-
 .contimg {
   text-align: center;
 }
@@ -172,4 +171,8 @@ hr {
 
 #sendButton {
   background-color: rgb(95, 25, 221);
+}
+#modal1,#modal2,#modal3,#modal4,#modal5,#modal6{
+  height: 500px;
+  margin-top: 55px;
 }

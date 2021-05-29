@@ -15,9 +15,10 @@ const cardsData = [
     href: "#modal2",
   },
   {
-    src: "https://cdn4.buysellads.net/uu/1/87063/1617222593-KLAV-335-260x200-lifestyle-4.jpg",
-    desc: "I am a very simple card. I am good at containing small bits of information",
-    tittle: "Cajero",
+    src: "Resources/Images/mercado1-1.png",
+    desc: "Página tipo tienda online realizada con Bootstrap, Angular, SpringBoot, JWT," +
+        " Si quieres entrar como administrador usa (kevin-123) para eliminar productos",
+    tittle: "",
     href: "#modal3",
   },
 ];
@@ -38,13 +39,15 @@ function putCard(src, desc, tittle, href) {
   let crdAction = document.createElement("div");
   let action = document.createElement("a");
 
+
   divCol.className = "col l4";
   divcard.className = "card hoverable small";
   divcardIMG.className = "card-image";
-  span.className = "card-title";
+
   divContent.className = "card-content";
   crdAction.className = "card-action";
   span.textContent = tittle;
+  span.className = "card-title";
   action.textContent = "Ver";
 
   action.className = "waves-effect waves-light btn modal-trigger";
