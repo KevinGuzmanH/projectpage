@@ -158,7 +158,9 @@ hr {
   color: rgb(95, 241, 188);
   opacity: 1;
 }
-
+.card.small .card-image+.card-content, .card.medium .card-image+.card-content, .card.large .card-image+.card-content {
+  max-height: 50%;
+}
 #textP {
   font-size: 75px;
   position: relative;

@@ -21,6 +21,13 @@ const cardsData = [
     tittle: "",
     href: "#modal3",
   },
+  {
+    src: "Resources/Images/animal.png",
+    desc: "Página con enfoque animalista, hecha en angular (con gsap y bootstrap) " +
+        "las imagenes fueron sacadas de freepik.es",
+    tittle: "",
+    href: "#modal4",
+  },
 ];
 
 cardsData.forEach(({ src, desc, tittle, href }) =>
