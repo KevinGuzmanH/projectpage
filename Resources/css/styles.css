@@ -161,6 +161,9 @@ hr {
 .card.small .card-image+.card-content, .card.medium .card-image+.card-content, .card.large .card-image+.card-content {
   max-height: 50%;
 }
+.sidenav-overlay{
+  left: 300px;
+}
 #textP {
   font-size: 75px;
   position: relative;
