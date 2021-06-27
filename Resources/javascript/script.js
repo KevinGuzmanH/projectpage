@@ -2,16 +2,18 @@
 const cardsData = [
   {
     src: "Resources/Images/ingproject1.png",
-    desc: "Página hecha en Springboot con Thymeleaf y Materialize CSS."
-     +" Conectada a base de datos utilizando JPA y PostgreSQL, y en la que tú mismo puedes postear",
-    tittle: "Tecnologías",
+    desc: "Angular+SpringBoot, " +
+        "registro e inicio de sesión mediante Facebook y Google " +
+        "compra del producto mediante Payu. Tokenizado y con el almacenamiento de los datos de los usuarios " +
+        "por parte de la tienda en base de datos relacional",
+    tittle: "",
     href: "#modal1",
   },
   {
     src: "Resources/Images/ingproject2.png",
     desc: "Proyecto CRUD en el que se pueden llevar las cuentas y el numero de productos en una tienda. La " +
         "coneccion a la base de datos puede tardar de 10 a 40 sg",
-    tittle: "Tienda",
+    tittle: "",
     href: "#modal2",
   },
   {
@@ -46,7 +48,9 @@ function putCard(src, desc, tittle, href) {
   let crdAction = document.createElement("div");
   let action = document.createElement("a");
 
-
+  if (href === "#modal1"){
+    paragraph.style.fontSize = "smaller";
+  }
   divCol.className = "col l4";
   divcard.className = "card hoverable small";
   divcardIMG.className = "card-image";
