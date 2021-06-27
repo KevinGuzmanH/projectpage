@@ -6,7 +6,7 @@ const cardsData = [
         "registro e inicio de sesión mediante Facebook y Google " +
         "compra del producto mediante Payu. Tokenizado y con el almacenamiento de los datos de los usuarios " +
         "por parte de la tienda en base de datos relacional",
-    tittle: "",
+    tittle: "EN PROCESO",
     href: "#modal1",
   },
   {
@@ -50,6 +50,8 @@ function putCard(src, desc, tittle, href) {
 
   if (href === "#modal1"){
     paragraph.style.fontSize = "smaller";
+    span.style.color = "rgb(238, 110, 115)";
+    span.style.fontWeight = "initial";
   }
   divCol.className = "col l4";
   divcard.className = "card hoverable small";
