@@ -89,11 +89,6 @@ hr {
   width: 50px;
   margin-left: 10px;
 }
-
-#iconsRow {
-
-}
-
 #mainImg {
   padding-bottom: 136px;
   background-image: url(../Images/back-min.png);
@@ -177,7 +172,39 @@ hr {
 #sendButton {
   background-color: rgb(95, 25, 221);
 }
-#modal1,#modal2,#modal3,#modal4,#modal5,#modal6{
-  height: 500px;
-  margin-top: 55px;
+@media only screen and (min-device-width: 601px){
+  #modal1,#modal2,#modal3,#modal4,#modal5,#modal6{
+    height: 500px;
+    width: 80%;
+  }
+  .slider .slides li img {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .slider{
+    height: 435px;
+  }
+}
+
+@media only screen and (max-device-width: 600px){
+  .slides{
+    height: 28vh !important;
+  }
+  .slider{
+    height: 641px !important;
+  }
+  #modal1,#modal2,#modal3,#modal4,#modal5,#modal6{
+    height: 33vh;
+    width: 45vh;
+    margin-top: 43%;
+  }
+  .slider .slides li img {
+  height: 101%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
 }

@@ -30,6 +30,12 @@ const cardsData = [
     tittle: "",
     href: "#modal4",
   },
+  {
+    src: "Resources/Images/apis.png",
+    desc: "Aplicación web con Angular Univeral, PrimeNG, Bootstrap, Chartjs, Gsap, y SpringBoot",
+    tittle: "",
+    href: "#modal5",
+  },
 ];
 
 cardsData.forEach(({ src, desc, tittle, href }) =>
