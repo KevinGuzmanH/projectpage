@@ -31,7 +31,7 @@ const cardsData = [
     href: "#modal4",
   },
   {
-    src: "Resources/Images/apis.png",
+    src: "Resources/Images/pikachu-min.png",
     desc: "Aplicación web con Angular Univeral, PrimeNG, Bootstrap, Chartjs, Gsap, y SpringBoot",
     tittle: "",
     href: "#modal5",
