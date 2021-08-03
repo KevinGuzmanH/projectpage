@@ -8,13 +8,15 @@ const cardsData = [
         "por parte de la tienda en base de datos relacional",
     tittle: "EN PROCESO",
     href: "#modal1",
+    idiom: "spanish"
   },
   {
     src: "Resources/Images/ingproject2.png",
-    desc: "Proyecto CRUD en el que se pueden llevar las cuentas y el numero de productos en una tienda. La " +
-        "coneccion a la base de datos puede tardar de 10 a 40 sg",
+    desc: "Proyecto CRUD en el que se pueden llevar las cuentas y el numero de productos en una tienda, " +
+        "base de datos PosgreSQL. La conexión a la base de datos puede tardar 10 sg",
     tittle: "",
     href: "#modal2",
+    idiom: "spanish"
   },
   {
     src: "Resources/Images/mercado1-1.png",
@@ -22,6 +24,7 @@ const cardsData = [
         " Si quieres entrar como administrador usa (kevin-123) para eliminar productos",
     tittle: "",
     href: "#modal3",
+    idiom: "spanish"
   },
   {
     src: "Resources/Images/animal.png",
@@ -29,20 +32,64 @@ const cardsData = [
         "las imagenes fueron sacadas de freepik.es",
     tittle: "",
     href: "#modal4",
+    idiom: "spanish"
   },
   {
     src: "Resources/Images/pikachu-min.png",
     desc: "Aplicación web con Angular Univeral, PrimeNG, Bootstrap, Chartjs, Gsap, y SpringBoot",
     tittle: "",
     href: "#modal5",
+    idiom: "spanish"
+  },
+  {
+    src: "Resources/Images/ingproject1.png",
+
+    desc: "Angular+SpringBoot, " +    
+        "sign up and log in with Facebook and Google, shop with payment  " +
+        "gateway PayU, tokenized. User info stored in a relational database ",
+    tittle: "ON PROCESS",
+    href: "#modal1",
+    idiom: "english"
+  },
+  {
+    src: "Resources/Images/ingproject2.png",
+    desc: "Project CRUD, type shop inventory, database PosgreSQL. The connection with the database can be slow",
+    tittle: "",
+    href: "#modal2",
+    idiom: "english"
+  },
+  {
+    src: "Resources/Images/mercado1-1.png",
+    desc: "Page type online shop made with Bootstrap, Angular, SpringBoot, JWT, if you want log in like admin use (kevin-123) to delete products",
+    tittle: "",
+    href: "#modal3",
+    idiom: "english"
+  },
+  {
+    src: "Resources/Images/animal.png",
+    desc: "Page with animalistic approach, made in angular (with gsap and bootstrap)" +
+        " the images were taken from freepik.es",
+    tittle: "",
+    href: "#modal4",
+    idiom: "english"
+  },
+  {
+    src: "Resources/Images/pikachu-min.png",
+    desc: "Web aplication with Angular Universal, PrimeNG, Bootstrap, Chartjs, Gsap, and SpringBoot",
+    tittle: "",
+    href: "#modal5",
+    idiom: "english"
   },
 ];
 
-cardsData.forEach(({ src, desc, tittle, href }) =>
-  putCard(src, desc, tittle, href)
+
+
+cardsData.forEach(({ src, desc, tittle, href, idiom }) =>
+  putCard(src, desc, tittle, href, idiom)
 );
 
-function putCard(src, desc, tittle, href) {
+function putCard(src, desc, tittle, href, idiom) {
+  
   let row = document.getElementById("cardsRow");
   let divCol = document.createElement("div");
   let divcard = document.createElement("div");
@@ -60,6 +107,19 @@ function putCard(src, desc, tittle, href) {
     span.style.fontWeight = "initial";
   }
   divCol.className = "col l4";
+
+  if(idiom === "english") {
+    divCol.className = "col l4 english";
+  }else{
+    divCol.className = "col l4 spanish";
+  }
+
+  if (idiom == "english") {
+    divCol.style.display = "none"
+  }else{
+    divCol.style.display = "block"
+  }
+
   divcard.className = "card hoverable small";
   divcardIMG.className = "card-image";
 
@@ -174,6 +234,27 @@ const words = [
 
 words.forEach(({ word }) => putWords(word));
 
+function changeidiom(){
+   let spanishCards = document.getElementsByClassName("spanish");
+   let englishCards = document.getElementsByClassName("english");
+
+   if (spanishCards[0].style.display == "block") {
+    for (let index = 0; index < spanishCards.length; index++) {
+      spanishCards[index].style.display = "none"
+     };
+     for (let index = 0; index < englishCards.length; index++) {
+      englishCards[index].style.display = "block"
+     };
+   }else{
+    for (let index = 0; index < englishCards.length; index++) {
+      englishCards[index].style.display = "none"
+     };
+     for (let index = 0; index < spanishCards.length; index++) {
+      spanishCards[index].style.display = "block"
+     };
+   }
+}
+
 function putWords(word) {
   let divWords = document.getElementById("wodsCont");
   let columns = document.createElement("div");
@@ -281,3 +362,4 @@ const observerS = new IntersectionObserver(observeElementSkill, {
 elementsS.forEach((element) => {
   observerS.observe(element);
 });
+

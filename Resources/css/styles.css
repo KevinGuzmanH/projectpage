@@ -89,6 +89,7 @@ hr {
   width: 50px;
   margin-left: 10px;
 }
+
 #mainImg {
   padding-bottom: 136px;
   background-image: url(../Images/back-min.png);
@@ -172,6 +173,7 @@ hr {
 #sendButton {
   background-color: rgb(95, 25, 221);
 }
+
 @media only screen and (min-device-width: 601px){
   #modal1,#modal2,#modal3,#modal4,#modal5,#modal6{
     height: 500px;
@@ -186,6 +188,12 @@ hr {
   }
   .slider{
     height: 435px;
+  }
+  .idioms{
+    position: relative;
+    right: -44%;
+    margin-bottom: 17px;
+    cursor: pointer;
   }
 }
 
@@ -206,5 +214,11 @@ hr {
   width: 100%;
   background-size: cover;
   background-position: center;
+}
+.idioms{
+  position: relative;
+  right: -75%;
+  margin-bottom: 17px;
+  cursor: pointer;
 }
 }

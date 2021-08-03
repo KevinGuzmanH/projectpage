@@ -31,6 +31,7 @@
     <script> $(document).ready(function(){
       $('.slider').slider();
     });</script>
+
   </head>
 
   <body>
@@ -44,13 +45,27 @@
               id="leftIcon"
               src="./Resources/Images/iconLeft.png"
             />
+              <img class="responsive-img idioms "
+                      alt="iconLeft"
+                      src="./Resources/Images/idioms.png"
+                      style="width: 70px"
+                      id="inglesa"
+                      onclick="changeidiom()"
+              />
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
+            <ul style="display: none;" class="right hide-on-med-and-down english">
               <li><a href="#rowMenu">Home</a></li>
               <li><a href="#dProjects">My Projects</a></li>
               <li><a href="#dSkill">Skill Set</a></li>
               <li><a href="#about">About Me</a></li>
               <li><a href="#dContact">Contact</a></li>
+            </ul>
+            <ul class="right hide-on-med-and-down spanish">
+              <li><a href="#rowMenu">Inicio</a></li>
+              <li><a href="#dProjects">Mis Proyectos</a></li>
+              <li><a href="#dSkill">Habilidades</a></li>
+              <li><a href="#about">Sobre Mí</a></li>
+              <li><a href="#dContact">Contactame</a></li>
             </ul>
           </div>
           <ul class="sidenav" id="mobile-demo">
@@ -87,7 +102,8 @@
     <div id="dProjects"></div>
       
     <div id="divTittle">
-      <h1 class='tittle'>My Projects</h1>
+      <h1 style="display: none;" class='tittle english'>My Projects</h1>
+      <h1 class='tittle spanish'>Mis Proyectos</h1>
       <hr />
     </div>
 
@@ -289,7 +305,8 @@
 
       <div class="z-depth-2" id="dSkill"></div>
       <div class="z-depth-2" id="skillSet" name="skillSet" >
-        <h1 class='tittle'>Skill Set</h1>
+        <h1 style="display: none;" class='tittle english'>Skill Set</h1>
+        <h1 class='tittle spanish'>Habilidades</h1>
         <hr class="hrContainer" />
         <div id="iconsRow" class="row"></div>
       </div>
@@ -297,7 +314,8 @@
 
     <div id="about">
     <div class="container">
-      <h1 class='tittle'>About Me</h1>
+      <h1 style="display: none;" class='tittle english'>About Me</h1>
+      <h1 class='tittle spanish'>Sobre mí</h1>
       <hr class="hrContainer" />
       <div class='row'>
         <div class='col l3 offset-l5 offset-s4'>
@@ -308,10 +326,15 @@
       <div class='row'>
         <div id="vl" class='col l1 s1'></div>
         <div class='col l11 s11' >
-          <p id="v2">Vivo y estudio en mi amada Medellín. Actualmente estoy cursando el 4 semestre de tecnología 
+          <p class="spanish" id="v2">Vivo y estudio en mi amada Medellín. Actualmente estoy cursando el 4 semestre de tecnología 
             en sistemas en el Tecnológico de Antioquia. Me gusta el ejercicio y las caminatas largas 
             conociendo personas y lugares nuevos, además tengo un gusto especial por programar y crear 
             que ha ido creciendo desde los 17 años y que hasta hoy no para de crecer.</p>
+            
+               
+          <p style="display: none;" class="english" id="v2">I live in the amazing Medellín, now I'm studing in the
+             Tecnológico de Antioquia and I'm in four semester, <br> I like to walk around the city, especially in remote places,
+              and meet new people, I am sure that I will program my whole life because I have liked it for years and every time I like it more and more</p>
             
             <blockquote >
               <div><strong>Phone</strong></div>
@@ -336,7 +359,8 @@
   <div class="z-depth-2" id="dContact"></div>
     <div id='contact'>
     <div class="container">
-      <h1>Contact Me</h1>
+      <h1 style="display: none;" class="english">Contact Me</h1>
+      <h1 class="spanish">Contactame</h1>
       
       <form name="contactForm" method="POST" data-netlify="true" >
         <hr class="hrContainer" />
@@ -390,8 +414,11 @@
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <p class="grey-text text-lighten-4">
+            <p style="display: none;" class="grey-text text-lighten-4 english">
               If you want to hire me you can use my gmail or phone number
+            </p>
+            <p class="grey-text text-lighten-4 spanish">
+              Si quieres contratarme puedes usar mi gmail o mi teléfono 
             </p>
           </div>
         </div>
