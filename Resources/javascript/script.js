@@ -42,6 +42,13 @@ const cardsData = [
     idiom: "spanish"
   },
   {
+    src: "Resources/Images/ming-1-6-min.png",
+    desc: "Página de restaurante de comida asiática, implementada en AWS usando EC2, S3 y CloudFront",
+    tittle: "",
+    href: "#modal6",
+    idiom: "spanish"
+  },
+  {
     src: "Resources/Images/ingproject1.png",
 
     desc: "Angular+SpringBoot, " +    
@@ -78,6 +85,13 @@ const cardsData = [
     desc: "Web aplication with Angular Universal, PrimeNG, Bootstrap, Chartjs, Gsap, and SpringBoot",
     tittle: "",
     href: "#modal5",
+    idiom: "english"
+  },
+  {
+    src: "Resources/Images/ming-1-6-min.png",
+    desc: "Asian food restaurant page, deployed on AWS using EC2, S3 and CloudFront",
+    tittle: "",
+    href: "#modal6",
     idiom: "english"
   },
 ];
