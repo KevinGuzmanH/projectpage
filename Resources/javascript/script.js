@@ -47,6 +47,12 @@ const cardsData = [
     tittle: "",
     href: "#modal6",
     idiom: "spanish"
+  },{
+    src: "Resources/Images/extension-min.png",
+    desc: "Extensión para Google Chrome que permite ver los restaurantes con precio promedio mas barato, Además te muestra el tiempo de preparación de la comida, caracteristicas ocultas en la página de Ifood",
+    tittle: "",
+    href: "#modal7",
+    idiom: "spanish"
   },
   {
     src: "Resources/Images/ingproject1.png",
@@ -94,6 +100,13 @@ const cardsData = [
     href: "#modal6",
     idiom: "english"
   },
+  {
+    src: "Resources/Images/extension-min.png",
+    desc: "Extension for Chrome browser. See the best restaurants in Ifood in your zone rated by average price and showing you the food preparation time, these are hidden properties on Ifood Page",
+    tittle: "",
+    href: "#modal7",
+    idiom: "english"
+  },
 ];
 
 
@@ -115,11 +128,12 @@ function putCard(src, desc, tittle, href, idiom) {
   let crdAction = document.createElement("div");
   let action = document.createElement("a");
 
-  if (href === "#modal1"){
+  if (href === "#modal1" || href === "#modal7") {
     paragraph.style.fontSize = "smaller";
     span.style.color = "rgb(238, 110, 115)";
     span.style.fontWeight = "initial";
   }
+
   divCol.className = "col l4";
 
   if(idiom === "english") {
