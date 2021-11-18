@@ -95,7 +95,7 @@ hr {
 
 #mainImg {
   padding-bottom: 136px;
-  background-image: url(../Images/back-min.png);
+  background-image: url(https://yorneybucket-1.s3.amazonaws.com/back-min.png);
   background-size: cover;
   display: flex;
   margin-bottom: 5px;

@@ -1,7 +1,7 @@
 
 const cardsData = [
   {
-    src: "Resources/Images/ingproject1.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/ingproject1.png",
     desc: "Angular+SpringBoot, " +
         "registro e inicio de sesión mediante Facebook y Google " +
         "compra del producto mediante Payu. Tokenizado y con el almacenamiento de los datos de los usuarios " +
@@ -11,7 +11,7 @@ const cardsData = [
     idiom: "spanish"
   },
   {
-    src: "Resources/Images/ingproject2.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/ingproject2.png",
     desc: "Proyecto CRUD en el que se pueden llevar las cuentas y el numero de productos en una tienda, " +
         "base de datos PosgreSQL. La conexión a la base de datos puede tardar 10 sg",
     tittle: "",
@@ -19,15 +19,15 @@ const cardsData = [
     idiom: "spanish"
   },
   {
-    src: "Resources/Images/mercado1-1.png",
-    desc: "Página tipo tienda online realizada con Bootstrap, Angular, SpringBoot, JWT," +
-        " Si quieres entrar como administrador usa (kevin-123) para eliminar productos",
+    src: "https://yorneybucket-1.s3.amazonaws.com/notes1-min.png",
+    desc: "Web con autenticación por cookies, angular guards y primeng, y con Spring Data y tests" +
+        "",
     tittle: "",
     href: "#modal3",
     idiom: "spanish"
   },
   {
-    src: "Resources/Images/animal.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/animal.png",
     desc: "Página con enfoque animalista, hecha en angular (con gsap y bootstrap) " +
         "las imagenes fueron sacadas de freepik.es",
     tittle: "",
@@ -35,27 +35,27 @@ const cardsData = [
     idiom: "spanish"
   },
   {
-    src: "Resources/Images/pikachu-min.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/pikachu-min.png",
     desc: "Aplicación web con Angular Univeral, PrimeNG, Bootstrap, Chartjs, Gsap, y SpringBoot",
     tittle: "",
     href: "#modal5",
     idiom: "spanish"
   },
   {
-    src: "Resources/Images/ming-1-6-min.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/ming-1-6-min.png",
     desc: "Página de restaurante de comida asiática, implementada en AWS usando EC2, S3 y CloudFront",
     tittle: "",
     href: "#modal6",
     idiom: "spanish"
   },{
-    src: "Resources/Images/extension-min.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/extension-min.png",
     desc: "Extensión para Google Chrome que permite ver los restaurantes con precio promedio mas barato, Además te muestra el tiempo de preparación de la comida, caracteristicas ocultas en la página de Ifood",
     tittle: "",
     href: "#modal7",
     idiom: "spanish"
   },
   {
-    src: "Resources/Images/ingproject1.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/ingproject1.png",
 
     desc: "Angular+SpringBoot, " +    
         "sign up and log in with Facebook and Google, shop with payment  " +
@@ -65,21 +65,21 @@ const cardsData = [
     idiom: "english"
   },
   {
-    src: "Resources/Images/ingproject2.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/ingproject2.png",
     desc: "Project CRUD, type shop inventory, database PosgreSQL. The connection with the database can be slow",
     tittle: "",
     href: "#modal2",
     idiom: "english"
   },
   {
-    src: "Resources/Images/mercado1-1.png",
-    desc: "Page type online shop made with Bootstrap, Angular, SpringBoot, JWT, if you want log in like admin use (kevin-123) to delete products",
+    src: "https://yorneybucket-1.s3.amazonaws.com/notes1-min.png",
+    desc: "Web with cookie authentication, angular guards and primeng, and with Spring Data and tests",
     tittle: "",
     href: "#modal3",
     idiom: "english"
   },
   {
-    src: "Resources/Images/animal.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/animal.png",
     desc: "Page with animalistic approach, made in angular (with gsap and bootstrap)" +
         " the images were taken from freepik.es",
     tittle: "",
@@ -87,21 +87,21 @@ const cardsData = [
     idiom: "english"
   },
   {
-    src: "Resources/Images/pikachu-min.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/pikachu-min.png",
     desc: "Web aplication with Angular Universal, PrimeNG, Bootstrap, Chartjs, Gsap, and SpringBoot",
     tittle: "",
     href: "#modal5",
     idiom: "english"
   },
   {
-    src: "Resources/Images/ming-1-6-min.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/ming-1-6-min.png",
     desc: "Asian food restaurant page, deployed on AWS using EC2, S3 and CloudFront",
     tittle: "",
     href: "#modal6",
     idiom: "english"
   },
   {
-    src: "Resources/Images/extension-min.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/extension-min.png",
     desc: "Extension for Chrome browser. See the best restaurants in Ifood in your zone rated by average price and showing you the food preparation time, these are hidden properties on Ifood Page",
     tittle: "",
     href: "#modal7",
