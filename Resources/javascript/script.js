@@ -178,24 +178,24 @@ function putCard(src, desc, tittle, href, idiom) {
 
 const skillData = [
   {
-    src: "Resources/Images/iconCSS.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/iconCSS.png",
     tittle: "CSS",
   },
 
   {
-    src: "Resources/Images/iconJavaScrip.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/iconJavaScrip.png",
     tittle: "JavaScript",
   },
   {
-    src: "Resources/Images/iconHTML.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/iconHTML.png",
     tittle: "HTML",
   },
   {
-    src: "Resources/Images/iconJava.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/iconJava.png",
     tittle: "Java",
   },
   {
-    src: "Resources/Images/iconMySQL.png",
+    src: "https://yorneybucket-1.s3.amazonaws.com/iconMySQL.png",
     tittle: "MySQL",
   },
   {
