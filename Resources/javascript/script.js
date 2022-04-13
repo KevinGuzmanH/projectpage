@@ -55,8 +55,14 @@ const cardsData = [
     idiom: "spanish"
   },
   {
+    src: "https://yorneybucket-1.s3.amazonaws.com/senderos-1-min.png",
+    desc: "Aplicación para el grupo de profesores 'Senderos', realizado con Spring MVC y thymeleaf, en donde se encuentrar los articulos escritos por este grupo",
+    tittle: "EN PROCESO",
+    href: "#modal8",
+    idiom: "spanish"
+  },
+  {
     src: "https://yorneybucket-1.s3.amazonaws.com/ingproject1.png",
-
     desc: "Angular+SpringBoot, " +    
         "sign up and log in with Facebook and Google, shop with payment  " +
         "gateway PayU, tokenized. User info stored in a relational database ",
@@ -107,6 +113,13 @@ const cardsData = [
     href: "#modal7",
     idiom: "english"
   },
+  {
+    src: "https://yorneybucket-1.s3.amazonaws.com/senderos-1-min.png",
+    desc: "Application for the group of teachers 'Senderos', made with Spring MVC and thymeleaf, where you can find the articles written by this group",
+    tittle: "ON PROCESS",
+    href: "#modal8",
+    idiom: "english"
+  },
 ];
 
 
@@ -128,7 +141,7 @@ function putCard(src, desc, tittle, href, idiom) {
   let crdAction = document.createElement("div");
   let action = document.createElement("a");
 
-  if (href === "#modal1" || href === "#modal7") {
+  if (href === "#modal1" || href === "#modal7" || href === "#modal8") {
     paragraph.style.fontSize = "smaller";
     span.style.color = "rgb(238, 110, 115)";
     span.style.fontWeight = "initial";
