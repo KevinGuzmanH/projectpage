@@ -208,12 +208,12 @@ const skillData = [
     tittle: "Java",
   },
   {
-    src: "https://yorneybucket-1.s3.amazonaws.com/iconMySQL.png",
-    tittle: "MySQL",
+    src: "https://download.logo.wine/logo/PostgreSQL/PostgreSQL-Logo.wine.png",
+    tittle: "PostgreSQL",
   },
   {
     src: "https://picodotdev.github.io/blog-bitix/assets/images/logotypes/spring.svg",
-    tittle: "Android Studio",
+    tittle: "Spring",
   },
   {
     src: "https://nefelijm.github.io/Nefeli/assets/images/img5.png",
@@ -224,15 +224,15 @@ const skillData = [
     tittle: "Angular",
   },
   {
-    src: "https://colinstodd.com/images/posts/matcss-min.png",
-    tittle: "Materializecss",
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+    tittle: "Python",
   },
   {
     src: "https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg",
     tittle: "Gsap",
   },
   {
-    src: "https://jartigag.xyz/assets/images/posts/git.png",
+    src: "https://git-scm.com/images/logos/downloads/Git-Icon-Black.png",
     tittle: "git",
   },
 
