@@ -257,10 +257,10 @@ function putSkillIcons(src, tittle) {
 
 const words = [
   { word: "Sql" },
-  { word: "funtion" },
+  { word: "function" },
   { word: "Java" },
   { word: "input" },
-  { word: "Android" },
+  { word: "Python" },
   { word: "<div>" },
   { word: "Skill" },
   { word: "Style" },
