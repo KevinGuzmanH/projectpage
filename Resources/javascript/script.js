@@ -1,5 +1,12 @@
 
 const cardsData = [
+
+  {
+    src: "https://yorney3.s3.amazonaws.com/javaCompare.png",
+    desc: "Herramienta de comparación de rendimiento de código Java. Spring-Angular",
+    href: "#modal1a",
+    idiom: "spanish"
+  },
   {
     src: "https://yorneybucket-1.s3.amazonaws.com/ingproject1.png",
     desc: "Angular+SpringBoot, " +
@@ -60,6 +67,12 @@ const cardsData = [
     tittle: "EN PROCESO",
     href: "#modal8",
     idiom: "spanish"
+  },
+  {
+    src: "https://yorney3.s3.amazonaws.com/javaCompare.png",
+    desc: "Java Code Performance Comparison Tool Spring-Angular",
+    href: "#modal1a",
+    idiom: "english"
   },
   {
     src: "https://yorneybucket-1.s3.amazonaws.com/ingproject1.png",

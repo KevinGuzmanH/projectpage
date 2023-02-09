@@ -178,7 +178,7 @@ hr {
 }
 
 @media only screen and (min-device-width: 601px){
-  #modal1,#modal2,#modal3,#modal4,#modal5,#modal6,#modal7{
+  #modal1,#modal2,#modal3,#modal4,#modal5,#modal6,#modal7,#modal8,#modal1a{
     height: 500px;
     width: 80%;
   }
@@ -212,7 +212,7 @@ hr {
   .slider{
     height: 641px !important;
   }
-  #modal1,#modal2,#modal3,#modal4,#modal5,#modal6,#modal7{
+  #modal1,#modal2,#modal3,#modal4,#modal5,#modal6,#modal7,#modal8,#modal1a{
     height: 33vh;
     width: 45vh;
     margin-top: 43%;
