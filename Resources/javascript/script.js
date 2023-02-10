@@ -8,6 +8,20 @@ const cardsData = [
     idiom: "spanish"
   },
   {
+    src: "https://yorneybucket-1.s3.amazonaws.com/ming-1-6-min.png",
+    desc: "Página de restaurante de comida asiática",
+    tittle: "",
+    href: "#modal6",
+    idiom: "spanish"
+  },
+  {
+    src: "https://yorneybucket-1.s3.amazonaws.com/extension-min.png",
+    desc: "Extensión que permite ver los restaurantes con precio promedio mas barato, Además te muestra el tiempo de preparación de la comida, caracteristicas ocultas en la página de Ifood",
+    tittle: "",
+    href: "#modal7",
+    idiom: "spanish"
+  },
+  {
     src: "https://yorneybucket-1.s3.amazonaws.com/ingproject1.png",
     desc: "Angular+SpringBoot, " +
         "registro e inicio de sesión mediante Facebook y Google " +
@@ -27,7 +41,7 @@ const cardsData = [
   },
   {
     src: "https://yorneybucket-1.s3.amazonaws.com/notes1-min.png",
-    desc: "Web con autenticación por cookies, angular guards y primeng, y con Spring Data y tests" +
+    desc: "Web con autenticación por cookies, angular guards y primeng, con Spring Data y tests" +
         "",
     tittle: "",
     href: "#modal3",
@@ -49,29 +63,23 @@ const cardsData = [
     idiom: "spanish"
   },
   {
-    src: "https://yorneybucket-1.s3.amazonaws.com/ming-1-6-min.png",
-    desc: "Página de restaurante de comida asiática, implementada en AWS usando EC2, S3 y CloudFront",
-    tittle: "",
-    href: "#modal6",
-    idiom: "spanish"
-  },{
-    src: "https://yorneybucket-1.s3.amazonaws.com/extension-min.png",
-    desc: "Extensión para Google Chrome que permite ver los restaurantes con precio promedio mas barato, Además te muestra el tiempo de preparación de la comida, caracteristicas ocultas en la página de Ifood",
-    tittle: "",
-    href: "#modal7",
-    idiom: "spanish"
-  },
-  {
-    src: "https://yorneybucket-1.s3.amazonaws.com/senderos-1-min.png",
-    desc: "Aplicación para el grupo de profesores 'Senderos', realizado con Spring MVC y thymeleaf, en donde se encuentrar los articulos escritos por este grupo",
-    tittle: "EN PROCESO",
-    href: "#modal8",
-    idiom: "spanish"
-  },
-  {
     src: "https://yorney3.s3.amazonaws.com/javaCompare.png",
     desc: "Java Code Performance Comparison Tool Spring-Angular",
     href: "#modal1a",
+    idiom: "english"
+  },
+  {
+    src: "https://yorneybucket-1.s3.amazonaws.com/ming-1-6-min.png",
+    desc: "Asian food restaurant page",
+    tittle: "",
+    href: "#modal6",
+    idiom: "english"
+  },
+  {
+    src: "https://yorneybucket-1.s3.amazonaws.com/extension-min.png",
+    desc: "Extension for Chrome browser. See the best restaurants in Ifood in your zone rated by average price and showing you the food preparation time, these are hidden properties on Ifood Page",
+    tittle: "",
+    href: "#modal7",
     idiom: "english"
   },
   {
@@ -111,28 +119,7 @@ const cardsData = [
     tittle: "",
     href: "#modal5",
     idiom: "english"
-  },
-  {
-    src: "https://yorneybucket-1.s3.amazonaws.com/ming-1-6-min.png",
-    desc: "Asian food restaurant page, deployed on AWS using EC2, S3 and CloudFront",
-    tittle: "",
-    href: "#modal6",
-    idiom: "english"
-  },
-  {
-    src: "https://yorneybucket-1.s3.amazonaws.com/extension-min.png",
-    desc: "Extension for Chrome browser. See the best restaurants in Ifood in your zone rated by average price and showing you the food preparation time, these are hidden properties on Ifood Page",
-    tittle: "",
-    href: "#modal7",
-    idiom: "english"
-  },
-  {
-    src: "https://yorneybucket-1.s3.amazonaws.com/senderos-1-min.png",
-    desc: "Application for the group of teachers 'Senderos', made with Spring MVC and thymeleaf, where you can find the articles written by this group",
-    tittle: "ON PROCESS",
-    href: "#modal8",
-    idiom: "english"
-  },
+  }
 ];
 
 
