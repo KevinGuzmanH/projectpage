@@ -57,7 +57,8 @@ const cardsData = [
   },
   {
     src: "https://yorneybucket-1.s3.amazonaws.com/pikachu-min.png",
-    desc: "Aplicación web con Angular Univeral, PrimeNG, Bootstrap, Chartjs, Gsap, y SpringBoot",
+    desc: "Consumo de "+
+    "multiples apis. Aplicación web con PrimeNG, Bootstrap, Chartjs, Gsap, y SpringBoot",
     tittle: "",
     href: "#modal5",
     idiom: "spanish"
